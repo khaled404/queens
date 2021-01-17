@@ -285,6 +285,7 @@ code {
   position: relative;
   margin-bottom: 25px;
   width: 100%;
+  overflow: hidden;
 }
 
 input {
@@ -937,7 +938,7 @@ nav .nav-conatiner .left-box .user-box .avatar img {
 }
 
 .logo-box {
-  width: 40%;
+  width: 30%;
   -ms-flex-item-align: center;
       align-self: center;
   margin: auto;
@@ -978,8 +979,8 @@ nav .nav-conatiner .left-box .user-box .avatar img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 40px 30px 20px;
-  background-color: #404040;
+  padding: 10px 30px 20px;
+  background-color: rgba(64, 64, 64, 0.7);
   border-radius: 15px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -993,6 +994,7 @@ nav .nav-conatiner .left-box .user-box .avatar img {
   .login form {
     width: unset;
     margin: unset;
+    padding: 10px 10px 20px;
   }
 }
 
@@ -1196,8 +1198,8 @@ nav .nav-conatiner .left-box .user-box .avatar img {
   background-color: #404040;
   margin: auto;
   cursor: pointer;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   margin-bottom: 20px;
 }
 
@@ -1308,8 +1310,8 @@ table a {
 }
 
 table a:hover i {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   color: #ff5656;
 }
 
