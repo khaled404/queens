@@ -6,30 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>اسم الموقع</title>
     <link rel="icon" type="image/png" href="images/fav.png"/>
-    <link rel="stylesheet" href="css/bootstrap4.min.css"/>
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/home.css"/>
   </head>
   <body class="login">
     <div class="container">
-      <form>
-        <div class="logo-box"><img class="img-fluid" src="./images/logo.png"/></div>
-        <div class="group">
-          <input type="text" required=""/><span class="highlight"></span><span class="bar"></span>
-          <label>Username</label>
-        </div>
-        <div class="group mb-3">
-          <input type="password" required=""/><span class="highlight"></span><span class="bar"></span>
-          <label>Password</label>
-        </div><a class="link" href="#">Forgot your password?</a>
-        <div class="cap-container"><img src="./images/flat.png"/>
-          <div class="group">
-            <input type="password" required=""/><span class="highlight"></span><span class="bar"></span>
+      <div class="login-box">
+        <h2>Login</h2>
+        <form>
+          <div class="user-box">
+            <input type="text" name="" required=""/>
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="" required=""/>
+            <label>Password</label>
+          </div>
+          <div class="cap-container"><img src="./images/flat.png"/></div>
+          <div class="user-box">
+            <input type="password" name="" required=""/>
             <label>Captcha</label>
           </div>
-        </div>
-        <button class="min-button offset">login</button>
-        <p class="signUp">Don't have an account?<a href="Register.html">Sign Up</a></p>
-      </form>
+          <button><span></span><span></span><span></span><span></span>      login</button>
+          <p class="signUp">Don't have an account?<a href="Register.html">Sign Up</a></p>
+        </form>
+      </div>
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/aos.js"></script>
